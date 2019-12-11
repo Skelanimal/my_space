@@ -1,0 +1,12 @@
+.background-vid {
+  float: left;
+  top: 0;
+  position: fixed;
+  margin-top: -20px;
+  margin-left: -180px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+}

@@ -1,0 +1,25 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+
+  .options {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    .navigate {
+      font-family: "Varela Round", sans-serif;
+      padding: 10px 25px;
+      font-size: 22px;
+      color: whitesmoke;
+
+      &:hover {
+        color: #f06000;
+        transform: scale(1.03);
+      }
+    }
+  }
+}
